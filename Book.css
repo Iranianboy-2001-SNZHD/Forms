@@ -1,0 +1,55 @@
+.header{
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 30px;
+}
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+li{
+    float: right;
+}
+.menu{
+    text-align: right;
+}
+li a{
+    display: block;
+    color: rgb(47, 0, 255);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: aliceblue;
+    color: rgb(255, 0, 43);
+    border-radius: 30px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.mahsool{
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    background-color: crimson;
+    font-size: 20px;
+}
+.makhzan{
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+.mahsool:hover{
+background-color: aqua;
+color:rgb(205, 50, 146);
+}
+.footer{
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 30px;
+}
