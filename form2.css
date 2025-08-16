@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: crimson
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+form{
+    width: 300px;
+    padding: 20px;
+    border: 3px dashed black;
+    border-radius: 15px;
+    background-color: aqua;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+label{
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"],
+input[type="tel"],
+ 
+button{
+    width: 100px;
+    padding: 15px;
+    border: 2px solid cornsilk;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+button{
+    background-color: blue;
+    color: brown;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(43, 226, 52);
+}
+ 
